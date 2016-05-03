@@ -1,0 +1,56 @@
+h1 {
+  color: blue;
+  /*font-size: 16px;*/
+}
+
+li {
+    color: #F0B352;
+    text-decoration: blink;
+    font-size: large;
+    font-weight: bolder;
+}
+/*.center {
+  text-align: center;
+}*/
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-image-outset: initial;
+    border-style: solid;
+    border-bottom-color: #E5AC08;
+}
+
+.shadow1 {
+	margin: 20px;
+	background-color: rgb(48,48,48); /* Needed for IEs */
+
+	-moz-box-shadow: 3px 3px 3px rgba(48,48,48,0.2);
+	-webkit-box-shadow: 3px 3px 3px rgba(48,48,48,0.2);
+	box-shadow: 3px 3px 3px  rgba(48,48,48,0.2);
+
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+	zoom: 1;
+}
+
+.shadow1 .content {
+	position: relative; /* This protects the inner element from being blurred */
+	padding: 100px;
+	background-color: #DDD;
+}
+
+.sidebar__site-name {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    font: normal normal 2.125em/1.33em Novecento_wide_bold;
+}
+
+.widget__list {
+    margin: 0;
+    padding-left: inherit;
+    list-style: none;
+}
